@@ -1,0 +1,75 @@
+.black-text-sixteen {
+  font-size: 16px;
+  color: black;
+}
+
+.text-twelve {
+  font-size: 12px;
+}
+
+.video-preview-flex-wrap{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.table-of-contents-background {
+  background-color: #ddd;
+  padding: 20px;
+  height: 100vh;
+  width: 50vw;
+}
+
+.training-video-player {
+  padding: 10px;
+  width: auto;
+}
+
+iframe {
+  width: 100%;
+  height: 55vh;
+  border: none;
+  padding: 0 !important;
+  display: block;
+  line-height: 0;
+  margin: 0 !important;
+  overflow: hidden;
+}
+
+.notes-textbox-size{
+  height: 100px;
+  width: 61%;
+  border-radius: 10px;
+  padding: 10px;
+  border: 1px solid black;
+  outline: 1px;
+}
+
+.notes-textbox-padding{
+padding: 20px;
+}
+
+.video-card {
+  border: 1px solid lightgrey;
+}
+
+.card-title {
+  height: 80px;
+  font-weight: bold;
+  color: rgb(70, 65, 65);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-title:hover::before {
+  content: "play video";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  padding: 5px 10px;
+  font-size: 14px;
+  opacity: 1;
+}
